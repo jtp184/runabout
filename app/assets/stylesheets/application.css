@@ -1,10 +1,64 @@
-/*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
- */
+/* The six upstream LCARS stylesheets remain standalone and unmodified. */
+:root { --accent: var(--h1-color, #ffcc99); --ink: var(--font-color, #cc99ff); }
+body.runabout { display: block; margin: 0; padding: 20px 24px; background: #000; color: var(--ink); font-size: 18px; }
+.runabout * { box-sizing: border-box; }
+.runabout a { color: inherit; }
+.runabout h1, .runabout h2, .runabout h3, .runabout h4 { margin: 0 0 12px; line-height: 1.2; text-transform: uppercase; }
+.runabout h1 { font-size: clamp(28px, 3vw, 48px); color: var(--accent); }
+.runabout h2 { font-size: 23px; }
+.runabout h3 { font-size: 18px; margin-top: 24px; }
+.runabout p { margin: 10px 0; line-height: 1.5; }
+.runabout .wrap-standard { max-width: 2000px; margin: auto; padding: 0; }
+.runabout .now-playing { position: sticky; top: 0; background: #000; z-index: 5; padding: 8px 0 12px; border-bottom: 10px solid var(--panel-1-color, #f90); }
+.system-line { display: flex; justify-content: space-between; gap: 15px; padding: 8px 18px; background: var(--panel-1-color, #f90); color: #000; border-radius: 30px 0 0 30px; font-weight: bold; letter-spacing: .12em; font-size: 13px; }
+.heading-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 16px 0 0; }
+.eyebrow { font-size: 13px; letter-spacing: .16em; text-transform: uppercase; }
+.episode-meta, .panel-note, .file-name { font-size: 14px; overflow-wrap: anywhere; }
+.runabout .lcars-button { display: inline-flex; align-items: center; justify-content: center; width: auto; min-width: 70px; height: auto; min-height: 44px; padding: 8px 18px; margin: 0; border: 0; border-radius: 24px; background: var(--button-color, #fc9); color: #000; cursor: pointer; font: inherit; text-transform: uppercase; text-decoration: none; }
+.runabout button:disabled, .runabout input:disabled { opacity: .35; cursor: default; }
+.runabout .pin { flex-shrink: 0; font-size: 14px; }
+.transport { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.transport form { margin: 0; }
+.volume { display: flex; align-items: center; gap: 12px; margin-left: auto !important; font-size: 14px; }
+.volume input { width: 110px; }
+.progress-control { display: flex; align-items: center; gap: 14px; font-size: 14px; margin-top: 5px; }
+.progress-control input { flex: 1; min-width: 0; }
+.runabout input[type=range] { accent-color: var(--accent); min-height: 35px; }
+.runabout .dashboard-wrap { display: grid; grid-template-columns: 130px minmax(0, 1fr) minmax(250px, 28%); align-items: start; gap: 22px; padding-top: 22px; }
+.runabout .left-frame { width: auto; padding: 0; border-radius: 0 0 0 60px; background: var(--left-frame-color, #c9f); overflow: hidden; }
+.panel-nav a { display: block; padding: 24px 12px; border-bottom: 7px solid black; color: #000; text-decoration: none; text-align: right; font-weight: bold; min-height: 65px; }
+.panel-nav .panel-1 { background: var(--panel-1-color, #f90); }.panel-nav .panel-2 { background: var(--panel-2-color, #c9f); }.panel-nav .panel-3 { background: var(--panel-3-color, #fc9); }.panel-nav .panel-4 { background: var(--panel-4-color, #99f); }
+.chrome-label { color: #000; text-align: right; padding: 25px 15px 180px; font-size: 22px; }
+.runabout .right-frame { min-width: 0; padding: 0; margin: 0; border: 0; background: #000; }
+.panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; padding-top: 20px; }
+.data-panel { min-width: 0; scroll-margin-top: 270px; border-top: 3px solid var(--panel-2-color, #c9f); padding-top: 15px; }
+.runabout ul.cast-list, .runabout ul.reference-list { list-style: none; padding: 0; margin: 0; }
+.cast-list li a, .reference-list li a { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid #292533; text-decoration: none; min-height: 48px; }
+.cast-list strong { font-weight: normal; color: var(--accent); }.cast-list small, figcaption small { display: block; font-size: 14px; margin-top: 4px; }
+.reference-list small { font-size: 12px; white-space: nowrap; opacity: .8; }
+.runabout .headshot { width: 60px; height: 80px; object-fit: cover; border-radius: 0; flex-shrink: 0; }.cast-list a > span:first-of-type { flex: 1; }
+.runabout figure { margin: 20px 0 30px; }.runabout blockquote { font: inherit; margin: 0 0 12px; border-left: 6px solid var(--panel-1-color, #f90); padding: 0 0 0 16px; color: var(--accent); }.runabout figcaption { text-align: right; font-size: 15px; }
+.metadata { display: grid; grid-template-columns: 85px 1fr; gap: 6px 12px; font-size: 14px; }.metadata dt { text-transform: uppercase; opacity: .7; }.metadata dd { margin: 0; }
+.runabout details { margin: 16px 0; padding: 12px; border: 1px solid #48404c; }.runabout summary { cursor: pointer; min-height: 35px; color: var(--accent); }.runabout details p { font-family: system-ui, sans-serif; font-size: 15px; }
+.runabout select { background: #16121c; color: #eee; width: 100%; margin: 10px 0; font: inherit; padding: 8px; }
+.episode-still { width: 100%; height: auto; }.source { font-size: 12px; }.attribution { max-width: 2000px; margin: 35px auto 0; font-size: 12px; line-height: 1.7; border-top: 3px solid var(--panel-2-color, #c9f); padding: 16px 0; text-align: left; background: #000; }.attribution a { text-decoration: underline; }
+.detail-column { min-width: 0; border-left: 1px solid #48404c; padding-left: 20px; }.detail-placeholder { padding-top: 35px; opacity: .65; }.detail-content { overflow-wrap: anywhere; }.detail-content h2 { margin-top: 24px; }.detail-content p, .wiki-article, .detail-content li { font: 15px/1.6 system-ui, sans-serif; }.wiki-article table { width: 100%; }.wiki-article th, .wiki-article td { padding: 4px; }.wiki-article { overflow-x: auto; }.wiki-article h2, .wiki-article h3 { margin-top: 25px; }
+.empty { opacity: .65; padding: 20px 0; }.first-run { margin: 30px 0; padding: 30px; border-left: 18px solid var(--panel-2-color, #c9f); border-radius: 35px 0 0 35px; }.first-run code { font-size: 15px; }.diagnostic, .notice { color: var(--accent); font-size: 14px; }.notice { padding: 10px; border: 1px solid currentColor; }
+.sr-only, .skip-link:not(:focus) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }.runabout :focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+@media (width <= 1250px) { .runabout .dashboard-wrap { grid-template-columns: 95px minmax(0, 1fr); gap: 16px; }.detail-column { grid-column: 2; }.detail-column:has(.detail-placeholder) { display: none; }.panel-nav a { font-size: 14px; padding: 20px 9px; } }
+@media (width <= 760px) {
+  body.runabout { padding: 8px 12px; font-size: 17px; }.system-line { font-size: 10px; letter-spacing: .05em; }.heading-row { gap: 10px; }.runabout .pin { min-width: 62px; padding: 8px; font-size: 12px; }.runabout .lcars-button { min-width: 50px; padding: 8px 12px; font-size: 13px; }.transport { gap: 6px; }.volume { margin-left: 0 !important; }.runabout .now-playing { border-bottom-width: 6px; }.runabout .dashboard-wrap { display: block; padding-top: 12px; }.runabout .panel-nav { display: flex; border-radius: 22px 22px 0 0; background: #000; }.panel-nav a { flex: 1; text-align: center; padding: 14px 4px; min-height: 48px; border-right: 4px solid #000; }.chrome-label { display: none; }.panels { display: block; }.data-panel { display: none; scroll-margin-top: 330px; }.data-panel:target { display: block; }.panels:not(:has(.data-panel:target)) #cast { display: block; }.panels:has(#match-picker:target) #log { display: block; }.panels:has(#match-picker:target) #cast { display: none; }.detail-column { border: 0; padding: 0; }.detail-column:has(.detail-content) { position: fixed; inset: 0; z-index: 20; overflow-y: auto; background: #000; padding: 20px; }.back-control { position: sticky; top: 0; }.first-run { padding: 20px; }.bar-panel { margin-top: 8px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; } }
+
+/* Reset only the template furniture used by the responsive dashboard. */
+.runabout .panel-nav { align-self: start; gap: 0; flex-wrap: nowrap; }
+.runabout .panel-nav::before, .runabout .panel-nav::after,
+.runabout .dashboard-main::before, .runabout .dashboard-main::after { display: none; }
+.runabout .panel-nav a { width: auto; height: auto; margin: 0; flex-grow: 0; border-radius: 0; animation: none; position: static; }
+@media (width <= 760px) { .runabout .panel-nav { flex-direction: row; }.runabout .panel-nav a { flex: 1; } }
+@media (width > 760px) {
+  .panels { grid-template-areas: "cast refs" "quotes refs" "log refs"; grid-template-rows: auto auto 1fr; }
+  .cast-panel { grid-area: cast; }.refs-panel { grid-area: refs; }.quotes-panel { grid-area: quotes; }.log-panel { grid-area: log; }
+}
+@media (width <= 760px) { body.runabout:has(#detail .detail-content) { overflow: hidden; } }

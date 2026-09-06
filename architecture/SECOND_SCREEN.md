@@ -1,6 +1,6 @@
 # Runabout — Star Trek Second Screen
 
-**Status:** Design / pre-implementation
+**Status:** Implemented — see README.md for setup and verification
 **Date:** 2026-09-04
 **Stack:** Ruby 4.0.1, Rails 8.1.3, SQLite 3.52, Hotwire, D-Bus — all verified present on this machine
 
@@ -417,6 +417,13 @@ parsed filename and a picker. This is deliberate: no false episode match.
 ## 8. Data layer
 
 ### 8.1 Memory Alpha ingest
+
+**Implementation finding (2026-09-05):** The sidebar's season, episode number,
+series, and air date are supplied by `Module:EpisodeData/*`, not stored inline
+on most episode pages. The importer reads those data modules from the XML first,
+then enriches their episode records from article pages. Combined module numbers
+such as `1x01/02` supply both records for a double-length episode. No Lua is
+executed. See README.md for the import and snapshot workflow.
 
 `rake runabout:ingest` downloads the 82 MB dump, decompresses with `7z`, and
 streams the XML. Per page it extracts:

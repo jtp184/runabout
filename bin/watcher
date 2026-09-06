@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative "../config/environment"
+# One watcher owns the session connection and command queue.
+lock_path = File.join(File.dirname(ActiveRecord::Base.connection_db_config.database), "watcher.lock")
+File.open(lock_path, "w") do |lock|
+  abort "Another watcher is already running" unless lock.flock(File::LOCK_EX | File::LOCK_NB)
+  Rails.application.eager_load!
+  Mpris::Watcher.new.run
+end

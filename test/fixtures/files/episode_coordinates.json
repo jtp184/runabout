@@ -1,0 +1,3158 @@
+[
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 1,
+    "title": "Encounter at Farpoint"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 2,
+    "title": "Encounter at Farpoint"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 3,
+    "title": "The Naked Now"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 4,
+    "title": "Code of Honor"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 11,
+    "title": "Haven"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 6,
+    "title": "Where No One Has Gone Before"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 5,
+    "title": "The Last Outpost"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 7,
+    "title": "Lonely Among Us"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 8,
+    "title": "Justice"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 9,
+    "title": "The Battle"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 10,
+    "title": "Hide And Q"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 16,
+    "title": "Too Short A Season"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 12,
+    "title": "The Big Goodbye"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 13,
+    "title": "Datalore"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 14,
+    "title": "Angel One"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 15,
+    "title": "11001001"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 18,
+    "title": "Home Soil"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 17,
+    "title": "When The Bough Breaks"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 19,
+    "title": "Coming of Age"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 20,
+    "title": "Heart of Glory"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 21,
+    "title": "The Arsenal of Freedom"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 23,
+    "title": "Skin Of Evil"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 22,
+    "title": "Symbiosis"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 24,
+    "title": "We'll Always Have Paris"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 25,
+    "title": "Conspiracy"
+  },
+  {
+    "series": "TNG",
+    "season": 1,
+    "number": 26,
+    "title": "The Neutral Zone"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 1,
+    "title": "The Child"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 2,
+    "title": "Where Silence Has Lease"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 3,
+    "title": "Elementary, Dear Data"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 4,
+    "title": "The Outrageous Okona"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 6,
+    "title": "The Schizoid Man"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 5,
+    "title": "Loud As A Whisper"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 7,
+    "title": "Unnatural Selection"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 8,
+    "title": "A Matter Of Honor"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 9,
+    "title": "The Measure Of A Man"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 10,
+    "title": "The Dauphin"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 11,
+    "title": "Contagion"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 12,
+    "title": "The Royale"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 13,
+    "title": "Time Squared"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 14,
+    "title": "The Icarus Factor"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 15,
+    "title": "Pen Pals"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 16,
+    "title": "Q Who"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 17,
+    "title": "Samaritan Snare"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 18,
+    "title": "Up The Long Ladder"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 19,
+    "title": "Manhunt"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 20,
+    "title": "The Emissary"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 21,
+    "title": "Peak Performance"
+  },
+  {
+    "series": "TNG",
+    "season": 2,
+    "number": 22,
+    "title": "Shades of Gray"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 2,
+    "title": "The Ensigns of Command"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 1,
+    "title": "Evolution"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 3,
+    "title": "The Survivors"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 4,
+    "title": "Who Watches The Watchers"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 5,
+    "title": "The Bonding"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 6,
+    "title": "Booby Trap"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 7,
+    "title": "The Enemy"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 8,
+    "title": "The Price"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 9,
+    "title": "The Vengeance Factor"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 10,
+    "title": "The Defector"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 11,
+    "title": "The Hunted"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 12,
+    "title": "The High Ground"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 13,
+    "title": "Deja Q"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 14,
+    "title": "A Matter of Perspective"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 15,
+    "title": "Yesterday's Enterprise"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 16,
+    "title": "The Offspring"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 17,
+    "title": "Sins of The Father"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 18,
+    "title": "Allegiance"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 19,
+    "title": "Captain's Holiday"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 20,
+    "title": "Tin Man"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 21,
+    "title": "Hollow Pursuits"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 22,
+    "title": "The Most Toys"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 23,
+    "title": "Sarek"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 24,
+    "title": "Ménage à Troi"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 25,
+    "title": "Transfigurations"
+  },
+  {
+    "series": "TNG",
+    "season": 3,
+    "number": 26,
+    "title": "The Best of Both Worlds"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 1,
+    "title": "The Best of Both Worlds, Part II"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 2,
+    "title": "Family"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 4,
+    "title": "Suddenly Human"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 3,
+    "title": "Brothers"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 5,
+    "title": "Remember Me"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 6,
+    "title": "Legacy"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 7,
+    "title": "Reunion"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 8,
+    "title": "Future Imperfect"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 9,
+    "title": "Final Mission"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 10,
+    "title": "The Loss"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 11,
+    "title": "Data's Day"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 12,
+    "title": "The Wounded"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 13,
+    "title": "Devil's Due"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 14,
+    "title": "Clues"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 15,
+    "title": "First Contact"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 16,
+    "title": "Galaxy's Child"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 17,
+    "title": "Night Terrors"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 18,
+    "title": "Identity Crisis"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 19,
+    "title": "The Nth Degree"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 20,
+    "title": "Qpid"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 21,
+    "title": "The Drumhead"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 22,
+    "title": "Half a Life"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 23,
+    "title": "The Host"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 24,
+    "title": "The Mind's Eye"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 25,
+    "title": "In Theory"
+  },
+  {
+    "series": "TNG",
+    "season": 4,
+    "number": 26,
+    "title": "Redemption"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 1,
+    "title": "Redemption II"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 2,
+    "title": "Darmok"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 3,
+    "title": "Ensign Ro"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 4,
+    "title": "Silicon Avatar"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 5,
+    "title": "Disaster"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 6,
+    "title": "The Game"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 7,
+    "title": "Unification I"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 8,
+    "title": "Unification II"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 9,
+    "title": "A Matter Of Time"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 10,
+    "title": "New Ground"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 11,
+    "title": "Hero Worship"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 12,
+    "title": "Violations"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 13,
+    "title": "The Masterpiece Society"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 14,
+    "title": "Conundrum"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 15,
+    "title": "Power Play"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 16,
+    "title": "Ethics"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 17,
+    "title": "The Outcast"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 18,
+    "title": "Cause And Effect"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 19,
+    "title": "The First Duty"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 20,
+    "title": "Cost Of Living"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 21,
+    "title": "The Perfect Mate"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 22,
+    "title": "Imaginary Friend"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 23,
+    "title": "I Borg"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 24,
+    "title": "The Next Phase"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 25,
+    "title": "The Inner Light"
+  },
+  {
+    "series": "TNG",
+    "season": 5,
+    "number": 26,
+    "title": "Time's Arrow"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 1,
+    "title": "Time's Arrow, Part II"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 2,
+    "title": "Realm Of Fear"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 3,
+    "title": "Man Of The People"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 4,
+    "title": "Relics"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 5,
+    "title": "Schisms"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 6,
+    "title": "True Q"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 7,
+    "title": "Rascals"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 8,
+    "title": "A Fistful of Datas"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 9,
+    "title": "The Quality of Life"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 10,
+    "title": "Chain Of Command, Part I"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 11,
+    "title": "Chain Of Command, Part II"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 12,
+    "title": "Ship In A Bottle"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 13,
+    "title": "Aquiel"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 14,
+    "title": "Face Of The Enemy"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 15,
+    "title": "Tapestry"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 16,
+    "title": "Birthright, Part I"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 17,
+    "title": "Birthright, Part II"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 18,
+    "title": "Starship Mine"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 19,
+    "title": "Lessons"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 20,
+    "title": "The Chase"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 21,
+    "title": "Frame of Mind"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 22,
+    "title": "Suspicions"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 23,
+    "title": "Rightful Heir"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 24,
+    "title": "Second Chances"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 25,
+    "title": "Timescape"
+  },
+  {
+    "series": "TNG",
+    "season": 6,
+    "number": 26,
+    "title": "Descent"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 1,
+    "title": "Descent, Part II"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 2,
+    "title": "Liaisons"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 3,
+    "title": "Interface"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 4,
+    "title": "Gambit, Part I"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 5,
+    "title": "Gambit, Part II"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 6,
+    "title": "Phantasms"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 7,
+    "title": "Dark Page"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 8,
+    "title": "Attached"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 9,
+    "title": "Force of Nature"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 10,
+    "title": "Inheritance"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 11,
+    "title": "Parallels"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 12,
+    "title": "The Pegasus"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 13,
+    "title": "Homeward"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 14,
+    "title": "Sub Rosa"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 15,
+    "title": "Lower Decks"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 16,
+    "title": "Thine Own Self"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 17,
+    "title": "Masks"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 18,
+    "title": "Eye of the Beholder"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 19,
+    "title": "Genesis"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 20,
+    "title": "Journey's End"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 21,
+    "title": "Firstborn"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 22,
+    "title": "Bloodlines"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 23,
+    "title": "Emergence"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 24,
+    "title": "Preemptive Strike"
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 25,
+    "title": "All Good Things..."
+  },
+  {
+    "series": "TNG",
+    "season": 7,
+    "number": 26,
+    "title": "All Good Things..."
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 1,
+    "title": "Emissary"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 2,
+    "title": "Emissary"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 4,
+    "title": "A Man Alone"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 3,
+    "title": "Past Prologue"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 5,
+    "title": "Babel"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 6,
+    "title": "Captive Pursuit"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 7,
+    "title": "Q-Less"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 8,
+    "title": "Dax"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 9,
+    "title": "The Passenger"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 10,
+    "title": "Move Along Home"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 11,
+    "title": "The Nagus"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 12,
+    "title": "Vortex"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 13,
+    "title": "Battle Lines"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 14,
+    "title": "The Storyteller"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 15,
+    "title": "Progress"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 16,
+    "title": "If Wishes Were Horses"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 17,
+    "title": "The Forsaken"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 18,
+    "title": "Dramatis Personae"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 19,
+    "title": "Duet"
+  },
+  {
+    "series": "DS9",
+    "season": 1,
+    "number": 20,
+    "title": "In the Hands of the Prophets"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 1,
+    "title": "The Homecoming"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 2,
+    "title": "The Circle"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 3,
+    "title": "The Siege"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 4,
+    "title": "Invasive Procedures"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 5,
+    "title": "Cardassians"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 6,
+    "title": "Melora"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 7,
+    "title": "Rules of Acquisition"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 8,
+    "title": "Necessary Evil"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 9,
+    "title": "Second Sight"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 10,
+    "title": "Sanctuary"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 11,
+    "title": "Rivals"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 12,
+    "title": "The Alternate"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 13,
+    "title": "Armageddon Game"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 14,
+    "title": "Whispers"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 15,
+    "title": "Paradise"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 16,
+    "title": "Shadowplay"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 17,
+    "title": "Playing God"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 18,
+    "title": "Profit and Loss"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 19,
+    "title": "Blood Oath"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 20,
+    "title": "The Maquis, Part I"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 21,
+    "title": "The Maquis, Part II"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 22,
+    "title": "The Wire"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 23,
+    "title": "Crossover"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 24,
+    "title": "The Collaborator"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 25,
+    "title": "Tribunal"
+  },
+  {
+    "series": "DS9",
+    "season": 2,
+    "number": 26,
+    "title": "The Jem'Hadar"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 1,
+    "title": "The Search, Part I"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 2,
+    "title": "The Search, Part II"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 3,
+    "title": "The House of Quark"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 4,
+    "title": "Equilibrium"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 5,
+    "title": "Second Skin"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 6,
+    "title": "The Abandoned"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 7,
+    "title": "Civil Defense"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 8,
+    "title": "Meridian"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 9,
+    "title": "Defiant"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 10,
+    "title": "Fascination"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 11,
+    "title": "Past Tense, Part I"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 12,
+    "title": "Past Tense, Part II"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 13,
+    "title": "Life Support"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 14,
+    "title": "Heart of Stone"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 15,
+    "title": "Destiny"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 16,
+    "title": "Prophet Motive"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 17,
+    "title": "Visionary"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 18,
+    "title": "Distant Voices"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 20,
+    "title": "Improbable Cause"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 19,
+    "title": "Through the Looking Glass"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 21,
+    "title": "The Die is Cast"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 22,
+    "title": "Explorers"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 23,
+    "title": "Family Business"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 24,
+    "title": "Shakaar"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 25,
+    "title": "Facets"
+  },
+  {
+    "series": "DS9",
+    "season": 3,
+    "number": 26,
+    "title": "The Adversary"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 1,
+    "title": "The Way of the Warrior"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 2,
+    "title": "The Way of the Warrior"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 4,
+    "title": "Hippocratic Oath"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 3,
+    "title": "The Visitor"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 5,
+    "title": "Indiscretion"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 6,
+    "title": "Rejoined"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 8,
+    "title": "Little Green Men"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 7,
+    "title": "Starship Down"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 9,
+    "title": "The Sword of Kahless"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 10,
+    "title": "Our Man Bashir"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 11,
+    "title": "Homefront"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 12,
+    "title": "Paradise Lost"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 13,
+    "title": "Crossfire"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 14,
+    "title": "Return to Grace"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 15,
+    "title": "Sons of Mogh"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 16,
+    "title": "Bar Association"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 17,
+    "title": "Accession"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 18,
+    "title": "Rules of Engagement"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 19,
+    "title": "Hard Time"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 20,
+    "title": "Shattered Mirror"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 21,
+    "title": "The Muse"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 22,
+    "title": "For the Cause"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 24,
+    "title": "The Quickening"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 23,
+    "title": "To the Death"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 25,
+    "title": "Body Parts"
+  },
+  {
+    "series": "DS9",
+    "season": 4,
+    "number": 26,
+    "title": "Broken Link"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 1,
+    "title": "Apocalypse Rising"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 2,
+    "title": "The Ship"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 3,
+    "title": "Looking for par'Mach in All the Wrong Places"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 4,
+    "title": "Nor the Battle to the Strong"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 6,
+    "title": "Trials and Tribble-ations"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 5,
+    "title": "The Assignment"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 7,
+    "title": "Let He Who Is Without Sin..."
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 8,
+    "title": "Things Past"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 9,
+    "title": "The Ascent"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 10,
+    "title": "Rapture"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 11,
+    "title": "The Darkness and the Light"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 12,
+    "title": "The Begotten"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 13,
+    "title": "For the Uniform"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 14,
+    "title": "In Purgatory's Shadow"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 15,
+    "title": "By Inferno's Light"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 16,
+    "title": "Doctor Bashir, I Presume"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 17,
+    "title": "A Simple Investigation"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 18,
+    "title": "Business as Usual"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 19,
+    "title": "Ties of Blood and Water"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 20,
+    "title": "Ferengi Love Songs"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 21,
+    "title": "Soldiers of the Empire"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 22,
+    "title": "Children of Time"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 23,
+    "title": "Blaze of Glory"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 24,
+    "title": "Empok Nor"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 25,
+    "title": "In the Cards"
+  },
+  {
+    "series": "DS9",
+    "season": 5,
+    "number": 26,
+    "title": "Call to Arms"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 1,
+    "title": "A Time to Stand"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 3,
+    "title": "Sons and Daughters"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 2,
+    "title": "Rocks and Shoals"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 4,
+    "title": "Behind the Lines"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 5,
+    "title": "Favor the Bold"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 6,
+    "title": "Sacrifice of Angels"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 7,
+    "title": "You Are Cordially Invited"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 8,
+    "title": "Resurrection"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 9,
+    "title": "Statistical Probabilities"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 10,
+    "title": "The Magnificent Ferengi"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 11,
+    "title": "Waltz"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 12,
+    "title": "Who Mourns for Morn?"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 14,
+    "title": "One Little Ship"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 13,
+    "title": "Far Beyond the Stars"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 15,
+    "title": "Honor Among Thieves"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 16,
+    "title": "Change of Heart"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 17,
+    "title": "Wrongs Darker Than Death or Night"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 18,
+    "title": "Inquisition"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 19,
+    "title": "In the Pale Moonlight"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 20,
+    "title": "His Way"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 21,
+    "title": "The Reckoning"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 22,
+    "title": "Valiant"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 23,
+    "title": "Profit and Lace"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 24,
+    "title": "Time's Orphan"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 25,
+    "title": "The Sound of Her Voice"
+  },
+  {
+    "series": "DS9",
+    "season": 6,
+    "number": 26,
+    "title": "Tears of the Prophets"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 1,
+    "title": "Image in the Sand"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 2,
+    "title": "Shadows and Symbols"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 3,
+    "title": "Afterimage"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 4,
+    "title": "Take Me Out to the Holosuite"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 5,
+    "title": "Chrysalis"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 6,
+    "title": "Treachery, Faith and the Great River"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 7,
+    "title": "Once More Unto the Breach"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 8,
+    "title": "The Siege of AR-558"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 9,
+    "title": "Covenant"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 10,
+    "title": "It's Only a Paper Moon"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 11,
+    "title": "Prodigal Daughter"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 12,
+    "title": "The Emperor's New Cloak"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 13,
+    "title": "Field of Fire"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 14,
+    "title": "Chimera"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 16,
+    "title": "Inter Arma Enim Silent Leges"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 15,
+    "title": "Badda-Bing, Badda-Bang"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 17,
+    "title": "Penumbra"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 18,
+    "title": "'Til Death Do Us Part"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 19,
+    "title": "Strange Bedfellows"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 20,
+    "title": "The Changing Face of Evil"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 21,
+    "title": "When It Rains..."
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 22,
+    "title": "Tacking Into the Wind"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 23,
+    "title": "Extreme Measures"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 24,
+    "title": "The Dogs of War"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 25,
+    "title": "What You Leave Behind"
+  },
+  {
+    "series": "DS9",
+    "season": 7,
+    "number": 26,
+    "title": "What You Leave Behind"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 1,
+    "title": "Caretaker"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 2,
+    "title": "Caretaker"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 3,
+    "title": "Parallax"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 4,
+    "title": "Time and Again"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 5,
+    "title": "Phage"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 6,
+    "title": "The Cloud"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 7,
+    "title": "Eye of the Needle"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 8,
+    "title": "Ex Post Facto"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 9,
+    "title": "Emanations"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 10,
+    "title": "Prime Factors"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 11,
+    "title": "State of Flux"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 12,
+    "title": "Heroes and Demons"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 13,
+    "title": "Cathexis"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 14,
+    "title": "Faces"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 15,
+    "title": "Jetrel"
+  },
+  {
+    "series": "VOY",
+    "season": 1,
+    "number": 16,
+    "title": "Learning Curve"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 3,
+    "title": "Projections"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 4,
+    "title": "Elogium"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 6,
+    "title": "Twisted"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 1,
+    "title": "The 37's"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 2,
+    "title": "Initiations"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 5,
+    "title": "Non Sequitur"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 7,
+    "title": "Parturition"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 8,
+    "title": "Persistence of Vision"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 9,
+    "title": "Tattoo"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 10,
+    "title": "Cold Fire"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 11,
+    "title": "Maneuvers"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 12,
+    "title": "Resistance"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 13,
+    "title": "Prototype"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 18,
+    "title": "Death Wish"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 14,
+    "title": "Alliances"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 15,
+    "title": "Threshold"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 16,
+    "title": "Meld"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 17,
+    "title": "Dreadnought"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 20,
+    "title": "Investigations"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 19,
+    "title": "Lifesigns"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 21,
+    "title": "Deadlock"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 22,
+    "title": "Innocence"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 23,
+    "title": "The Thaw"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 24,
+    "title": "Tuvix"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 25,
+    "title": "Resolutions"
+  },
+  {
+    "series": "VOY",
+    "season": 2,
+    "number": 26,
+    "title": "Basics, Part I"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 7,
+    "title": "Sacred Ground"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 5,
+    "title": "False Profits"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 2,
+    "title": "Flashback"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 1,
+    "title": "Basics, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 3,
+    "title": "The Chute"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 6,
+    "title": "Remember"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 4,
+    "title": "The Swarm"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 8,
+    "title": "Future's End"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 9,
+    "title": "Future's End, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 10,
+    "title": "Warlord"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 11,
+    "title": "The Q and the Grey"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 12,
+    "title": "Macrocosm"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 14,
+    "title": "Alter Ego"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 13,
+    "title": "Fair Trade"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 16,
+    "title": "Blood Fever"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 15,
+    "title": "Coda"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 17,
+    "title": "Unity"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 19,
+    "title": "Rise"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 18,
+    "title": "Darkling"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 20,
+    "title": "Favorite Son"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 21,
+    "title": "Before and After"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 22,
+    "title": "Real Life"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 23,
+    "title": "Distant Origin"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 24,
+    "title": "Displaced"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 25,
+    "title": "Worst Case Scenario"
+  },
+  {
+    "series": "VOY",
+    "season": 3,
+    "number": 26,
+    "title": "Scorpion"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 1,
+    "title": "Scorpion, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 2,
+    "title": "The Gift"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 4,
+    "title": "Nemesis"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 3,
+    "title": "Day of Honor"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 5,
+    "title": "Revulsion"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 6,
+    "title": "The Raven"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 7,
+    "title": "Scientific Method"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 8,
+    "title": "Year of Hell"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 9,
+    "title": "Year of Hell, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 10,
+    "title": "Random Thoughts"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 11,
+    "title": "Concerning Flight"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 12,
+    "title": "Mortal Coil"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 14,
+    "title": "Message in a Bottle"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 13,
+    "title": "Waking Moments"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 15,
+    "title": "Hunters"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 16,
+    "title": "Prey"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 17,
+    "title": "Retrospect"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 18,
+    "title": "The Killing Game"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 19,
+    "title": "The Killing Game, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 20,
+    "title": "Vis à Vis"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 21,
+    "title": "The Omega Directive"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 22,
+    "title": "Unforgettable"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 23,
+    "title": "Living Witness"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 24,
+    "title": "Demon"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 25,
+    "title": "One"
+  },
+  {
+    "series": "VOY",
+    "season": 4,
+    "number": 26,
+    "title": "Hope and Fear"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 1,
+    "title": "Night"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 2,
+    "title": "Drone"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 3,
+    "title": "Extreme Risk"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 4,
+    "title": "In the Flesh"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 5,
+    "title": "Once Upon a Time"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 8,
+    "title": "Nothing Human"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 6,
+    "title": "Timeless"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 9,
+    "title": "Thirty Days"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 7,
+    "title": "Infinite Regress"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 10,
+    "title": "Counterpoint"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 13,
+    "title": "Gravity"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 11,
+    "title": "Latent Image"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 12,
+    "title": "Bride of Chaotica!"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 19,
+    "title": "The Fight"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 14,
+    "title": "Bliss"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 17,
+    "title": "The Disease"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 15,
+    "title": "Dark Frontier"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 16,
+    "title": "Dark Frontier"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 18,
+    "title": "Course: Oblivion"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 20,
+    "title": "Think Tank"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 21,
+    "title": "Juggernaut"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 22,
+    "title": "Someone to Watch Over Me"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 23,
+    "title": "11:59"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 24,
+    "title": "Relativity"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 25,
+    "title": "Warhead"
+  },
+  {
+    "series": "VOY",
+    "season": 5,
+    "number": 26,
+    "title": "Equinox"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 1,
+    "title": "Equinox, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 2,
+    "title": "Survival Instinct"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 3,
+    "title": "Barge of the Dead"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 4,
+    "title": "Tinker Tenor Doctor Spy"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 7,
+    "title": "Dragon's Teeth"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 5,
+    "title": "Alice"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 6,
+    "title": "Riddles"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 8,
+    "title": "One Small Step"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 9,
+    "title": "The Voyager Conspiracy"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 10,
+    "title": "Pathfinder"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 11,
+    "title": "Fair Haven"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 15,
+    "title": "Tsunkatse"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 12,
+    "title": "Blink of an Eye"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 13,
+    "title": "Virtuoso"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 16,
+    "title": "Collective"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 14,
+    "title": "Memorial"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 17,
+    "title": "Spirit Folk"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 18,
+    "title": "Ashes to Ashes"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 19,
+    "title": "Child's Play"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 20,
+    "title": "Good Shepherd"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 23,
+    "title": "Fury"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 21,
+    "title": "Live Fast and Prosper"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 24,
+    "title": "Life Line"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 22,
+    "title": "Muse"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 25,
+    "title": "The Haunting of Deck Twelve"
+  },
+  {
+    "series": "VOY",
+    "season": 6,
+    "number": 26,
+    "title": "Unimatrix Zero"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 1,
+    "title": "Unimatrix Zero, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 2,
+    "title": "Imperfection"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 3,
+    "title": "Drive"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 5,
+    "title": "Critical Care"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 4,
+    "title": "Repression"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 6,
+    "title": "Inside Man"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 9,
+    "title": "Flesh and Blood"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 10,
+    "title": "Flesh and Blood"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 7,
+    "title": "Body and Soul"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 8,
+    "title": "Nightingale"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 11,
+    "title": "Shattered"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 12,
+    "title": "Lineage"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 13,
+    "title": "Repentance"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 14,
+    "title": "Prophecy"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 15,
+    "title": "The Void"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 16,
+    "title": "Workforce"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 17,
+    "title": "Workforce, Part II"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 18,
+    "title": "Human Error"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 19,
+    "title": "Q2"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 21,
+    "title": "Friendship One"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 20,
+    "title": "Author, Author"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 22,
+    "title": "Natural Law"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 23,
+    "title": "Homestead"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 24,
+    "title": "Renaissance Man"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 25,
+    "title": "Endgame"
+  },
+  {
+    "series": "VOY",
+    "season": 7,
+    "number": 26,
+    "title": "Endgame"
+  }
+]

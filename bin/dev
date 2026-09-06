@@ -1,2 +1,22 @@
 #!/usr/bin/env ruby
-exec "./bin/rails", "server", *ARGV
+require "shellwords"
+Dir.chdir(File.expand_path("..", __dir__))
+commands = File.readlines("Procfile").to_h { |line| name, command = line.strip.split(": ", 2); [name, Shellwords.split(command)] }
+pids = {}
+running = true
+%w[INT TERM].each { |signal| Signal.trap(signal) { running = false } }
+commands.each { |name, command| pids[Process.spawn(*command)] = name }
+while running
+  result = Process.wait2(-1, Process::WNOHANG)
+  if result
+    pid, status = result
+    name = pids.delete(pid)
+    warn "#{name} exited (#{status.exitstatus}); restarting in 2 seconds"
+    sleep 2
+    pids[Process.spawn(*commands.fetch(name))] = name if running
+  else
+    sleep 0.25
+  end
+end
+pids.each_key { |pid| Process.kill("TERM", pid) rescue Errno::ESRCH }
+pids.each_key { |pid| Process.wait(pid) rescue Errno::ECHILD }

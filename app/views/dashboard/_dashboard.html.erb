@@ -1,0 +1,67 @@
+<% episodes = state.episodes %>
+<section id="dashboard" class="wrap-standard">
+  <%= render "dashboard/now_playing", state: state %>
+  <% unless Catalog.current_id %>
+    <section class="first-run"><p class="eyebrow">Computer initialization required</p><h2>Your second screen is ready for its library.</h2><p>Import Memory Alpha, then index your Star Trek episodes.</p><code>bin/rake runabout:ingest</code><br><code>bin/rake runabout:scan</code><p>The watcher will identify playback automatically. Cast, references, and quotes will appear here.</p></section>
+  <% end %>
+  <div class="wrap dashboard-wrap">
+    <nav class="left-frame panel-nav" aria-label="Dashboard panels" data-turbo="false">
+      <a class="panel-1" href="#cast">01 · CAST</a><a class="panel-2" href="#refs">02 · REFS</a><a class="panel-3" href="#quotes">03 · QUOTES</a><a class="panel-4" href="#log">04 · LOG</a>
+      <div class="chrome-label" aria-hidden="true">NCC<br>74602<br><br>LCARS<br>2364</div>
+    </nav>
+    <main class="right-frame dashboard-main">
+      <div class="bar-panel" aria-hidden="true"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div><div class="bar-4"></div><div class="bar-5"></div></div>
+      <div class="panels">
+        <section id="cast" class="data-panel cast-panel">
+          <h2>01 / Personnel manifest</h2>
+          <% credits = Credit.where(episode: episodes).includes(:person).to_a.uniq { |credit| [credit.person.page, credit.character, credit.billing] } %>
+          <% credits.group_by(&:billing).sort_by { |billing, _| %w[starring].include?(billing) ? 0 : { "also starring" => 1, "guest" => 2, "co-star" => 3, "uncredited" => 4 }.fetch(billing, 5) }.each do |billing, group| %>
+            <h3><%= billing %></h3><ul class="cast-list">
+              <% group.each do |credit| %><li>
+                <%= link_to person_path(credit.person), data: { turbo_frame: "detail" } do %>
+                  <% if photo_for(credit.person) %><%= image_tag photo_for(credit.person), alt: "", loading: "lazy", class: "headshot" %><% end %>
+                  <span><strong><%= credit.character %></strong><small><%= credit.person.name %></small></span><span aria-hidden="true">↗</span>
+                <% end %>
+              </li><% end %>
+            </ul>
+          <% end %>
+          <% if credits.empty? %><p class="empty">No personnel records loaded.</p><% end %>
+        </section>
+        <section id="refs" class="data-panel refs-panel">
+          <h2>02 / Reference database</h2>
+          <p class="panel-note">On-screen references and mentioned subjects. <span class="confirmed">◆</span> Confirmed by both sources.</p>
+          <% mentions = EntityMention.where(episode: episodes).includes(:entity).to_a.group_by { |mention| mention.entity.page }.map { |_page, group| [group.first.entity, group.any?(&:seen), group.flat_map(&:sources).uniq] } %>
+          <% mentions.group_by { |entity, _seen, _sources| entity.display_type }.sort.each do |type, group| %>
+            <h3><%= type %> <small><%= group.length %></small></h3><ul class="reference-list">
+              <% group.sort_by { |entity, _seen, sources| [sources.length > 1 ? 0 : 1, entity.name.downcase] }.each do |entity, seen, sources| %>
+                <li><%= link_to entity_path(entity), data: { turbo_frame: "detail" } do %><span><%= entity.name %></span><small><%= sources.length > 1 ? "◆ " : "" %><%= seen ? "Seen" : "Mentioned" %></small><% end %></li>
+              <% end %>
+            </ul>
+          <% end %>
+          <% if mentions.empty? %><p class="empty">No reference records loaded.</p><% end %>
+        </section>
+        <section id="quotes" class="data-panel quotes-panel">
+          <h2>03 / Recorded transmissions</h2>
+          <% quotes = Quote.where(episode: episodes).order(:episode_id, :ordinal).to_a.uniq { |quote| [quote.text, quote.speaker] } %>
+          <% quotes.each do |quote| %><figure><blockquote><%= quote.text %></blockquote><figcaption>— <%= quote.speaker %><% if quote.context.present? %><small><%= quote.context %></small><% end %></figcaption></figure><% end %>
+          <% if quotes.empty? %><p class="empty">No transmissions loaded.</p><% end %>
+        </section>
+        <section id="log" class="data-panel log-panel">
+          <h2>04 / Mission log</h2>
+          <% episodes.uniq(&:page).each do |episode| %>
+            <article><h3><%= episode.title %></h3>
+              <% if photo_for(episode) %><%= image_tag photo_for(episode), alt: "Episode still", class: "episode-still", loading: "lazy" %><% end %>
+              <dl class="metadata"><dt>Stardate</dt><dd><%= episode.stardate.presence || "Unknown" %></dd><dt>First aired</dt><dd><%= episode.airdate.presence || "Unknown" %></dd><dt>Director</dt><dd><%= episode.director.presence || "Unknown" %></dd><dt>Writers</dt><dd><%= episode.writers.presence || "Unknown" %></dd></dl>
+              <p><%= episode.blurb %></p>
+              <details><summary>Reveal full mission report · Spoilers</summary><%= simple_format episode.summary %><h4>Production & continuity</h4><%= simple_format episode.background %></details>
+              <p class="source">Source: <%= link_to "Memory Alpha — #{episode.title}", source_url(episode.page), target: "_blank", rel: "noopener" %> · CC BY-NC</p>
+            </article>
+          <% end %>
+          <% if episodes.empty? %><p class="empty">Standing by for an identified episode.</p><% end %>
+          <%= render "dashboard/match_picker", state: state %>
+        </section>
+      </div>
+    </main>
+    <aside class="detail-column"><%= turbo_frame_tag "detail" do %><div class="detail-placeholder"><p class="eyebrow">Library access</p><p>Select a performer or reference to open its record.</p></div><% end %></aside>
+  </div>
+</section>

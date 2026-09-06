@@ -1,0 +1,12 @@
+<div id="match-controls">
+          <% if state.path.present? && Catalog.current_id %>
+            <details id="match-picker" <%= "open" if state.status == "UNMATCHED" %>><summary>Correct episode match</summary><p><%= File.basename(state.path) %></p>
+              <%= form_with url: corrections_path do |form| %>
+                <%= form.hidden_field :path, value: state.path %>
+                <%= form.label :episode_ids, "Choose one or two episodes" %>
+                <%= form.select :episode_ids, Episode.current.includes(:series).order(:series_id, :season, :number).map { |episode| [episode.label, episode.id] }, {}, multiple: true, size: 6, required: true %>
+                <%= form.submit "Save match", class: "lcars-button" %>
+              <% end %>
+            </details>
+          <% end %>
+</div>

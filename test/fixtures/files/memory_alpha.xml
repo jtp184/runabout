@@ -1,0 +1,77 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/"><page><title>Module:EpisodeData/A</title><ns>828</ns><revision><text>return {
+["The Inner Light"] = "TNG",
+["Encounter at Farpoint"] = "TNG",
+["Emissary"] = "DS9",
+}</text></revision></page><page><title>Module:EpisodeData/N</title><ns>828</ns><revision><text>return {
+["The Inner Light"] = "5x25",
+["Encounter at Farpoint"] = "1x01/02",
+["Emissary"] = "1x01/02",
+}</text></revision></page><page><title>Module:EpisodeData/S</title><ns>828</ns><revision><text>return {
+["The Inner Light"] = "5",
+["Encounter at Farpoint"] = "1",
+["Emissary"] = "1",
+}</text></revision></page><page><title>Module:EpisodeData/D</title><ns>828</ns><revision><text>return {
+["The Inner Light"] = "1",
+["Encounter at Farpoint"] = "28",
+["Emissary"] = "3",
+}</text></revision></page><page><title>Module:EpisodeData/M</title><ns>828</ns><revision><text>return {
+["The Inner Light"] = "June",
+["Encounter at Farpoint"] = "September",
+["Emissary"] = "January",
+}</text></revision></page><page><title>Module:EpisodeData/Y</title><ns>828</ns><revision><text>return {
+["The Inner Light"] = "1992",
+["Encounter at Farpoint"] = "1987",
+["Emissary"] = "1993",
+}</text></revision></page><page><title>The Inner Light (episode)</title><ns>0</ns><revision><text>{{real world}}
+{{sidebar episode
+|image = Flute.jpg
+|teleplay = [[Writer One]] and [[Writer Two]]
+|director = [[Director One]]
+|date = 45944.1
+}}
+A captain encounters a mysterious probe.
+== Summary ==
+=== Teaser ===
+A carefully hidden plot detail.
+== Memorable quotes ==
+"''A synthetic fixture quotation.''"
+:- '''Picard''', speaking to a friend
+== Background information ==
+A production note.
+== Links and references ==
+=== Starring ===
+* [[Patrick Stewart]] as [[Jean-Luc Picard]] and [[Kamin]]
+=== Guest stars ===
+* [[Margot Rose]] as [[Eline]]
+=== References ===
+[[Ressikan flute]]; [[Kamin]]; [[Kataan]]; [[Starfleet]]; [[probe]]; {{dis|Kataan|star}}
+==== Unreferenced material ====
+[[Starbase 218]]; {{revname|Richard|Wagner}}
+=== External links ===
+[[Do not import me]]
+</text></revision></page><page><title>Encounter at Farpoint (episode)</title><ns>0</ns><revision><text>{{real world}}
+{{sidebar episode|director=Someone}}
+A double episode.
+== Summary ==
+Two linked parts.
+=== References ===
+[[Starfleet]]</text></revision></page><page><title>Emissary (episode)</title><ns>0</ns><revision><text>{{real world}}
+{{sidebar episode|director=Someone}}
+A double episode.
+== Summary ==
+Two linked parts.
+=== References ===
+[[Starfleet]]</text></revision></page><page><title>Ressikan flute</title><ns>0</ns><revision><text>A musical instrument. ({{TNG|The Inner Light}})
+[[Category:Musical instruments]]</text></revision></page><page><title>Kamin</title><ns>0</ns><revision><text>A resident. ({{TNG|The Inner Light}})
+[[Category:Kataan natives]]</text></revision></page><page><title>Kataan</title><ns>0</ns><revision><text>A planet.
+[[Category:Planets]]</text></revision></page><page><title>Starfleet</title><ns>0</ns><revision><text>An organization. ({{TNG|The Inner Light|Encounter at Farpoint}}; {{DS9|Emissary}})
+[[Category:Organizations]]</text></revision></page><page><title>probe</title><ns>0</ns><revision><text>A device.
+[[Category:Devices]]</text></revision></page><page><title>Kataan (star)</title><ns>0</ns><revision><text>A star.
+[[Category:Stars]]</text></revision></page><page><title>Starbase 218</title><ns>0</ns><revision><text>A station. ({{TNG|The Inner Light}})
+[[Category:Locations]]</text></revision></page><page><title>Richard Wagner</title><ns>0</ns><revision><text>A composer.
+[[Category:Composers]]</text></revision></page><page><title>Reverse-only subject</title><ns>0</ns><revision><text>A subject cited only here. ({{TNG|The Inner Light}})
+[[Category:Unmapped category]]</text></revision></page><page><title>Patrick Stewart</title><ns>0</ns><revision><text>{{real world}}
+{{sidebar performer}}
+A performer biography.</text></revision></page><page><title>Margot Rose</title><ns>0</ns><revision><text>{{real world}}
+{{sidebar performer}}
+Another performer biography.</text></revision></page></mediawiki>

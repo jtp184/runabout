@@ -1,0 +1,40 @@
+<% episodes = state.episodes %>
+<header id="now-playing" class="now-playing" data-controller="playback theme" data-theme-name-value="<%= state.theme %>"
+  data-playback-position-value="<%= state.position %>" data-playback-captured-value="<%= state.captured_at&.iso8601(3) %>"
+  data-playback-rate-value="<%= state.rate %>" data-playback-playing-value="<%= state.playback_status == 'Playing' && state.bus_name.present? %>"
+  data-playback-duration-value="<%= state.duration %>">
+  <div class="system-line"><span>RUNABOUT / AUXILIARY DISPLAY 02</span><span><%= state.status == "PLAYING" ? "LINK ACTIVE" : "STANDBY" %></span></div>
+  <div class="heading-row">
+    <div>
+      <p class="eyebrow"><%= episodes.first&.series&.name || "Starfleet library computer" %></p>
+      <h1><%= episodes.map(&:title).uniq.join(" / ").presence || "Awaiting transmission" %></h1>
+      <p class="episode-meta"><%= episodes.map { |episode| "S%02d · E%02d" % [episode.season.to_i, episode.number.to_i] }.join(" + ") %>
+      <% if episodes.any? %> · Match <%= (state.confidence * 100).round %>%<% end %>
+      · <%= state.bus_name&.delete_prefix("org.mpris.MediaPlayer2.") || "No player" %> · <%= state.playback_status %></p>
+    </div>
+    <button type="button" class="lcars-button pin" data-action="theme#toggle" data-theme-target="pin" aria-pressed="false">Pin theme</button>
+  </div>
+  <% if state.diagnostic.present? %><p class="diagnostic" role="status"><%= state.diagnostic %></p><% end %>
+  <% if state.path.present? && (state.status == "UNMATCHED" || state.confidence < 0.85) %><p class="file-name"><%= File.basename(state.path) %> · <a href="#match-picker" data-turbo="false">Correct match</a></p><% end %>
+  <% if state.notice.present? && state.notice_at && state.notice_at > 15.seconds.ago %><p class="notice" role="status"><%= state.notice %></p><% end %>
+  <p data-playback-target="error" role="status" hidden></p>
+  <div class="transport">
+    <% %w[Previous Play Pause Stop Next].each do |action| %>
+      <%= form_with url: commands_path, data: { action: "submit->playback#command" } do |form| %>
+        <%= form.hidden_field :command, value: action %><%= form.hidden_field :bus_name, value: state.bus_name %><%= form.hidden_field :track_id, value: state.track_id %>
+        <%= form.submit action, class: "lcars-button", disabled: !permitted_control?(state, action) %>
+      <% end %>
+    <% end %>
+    <%= form_with url: commands_path, class: "volume", data: { action: "submit->playback#command" } do |form| %>
+      <%= form.hidden_field :command, value: "Volume" %><%= form.hidden_field :bus_name, value: state.bus_name %><%= form.hidden_field :track_id, value: state.track_id %>
+      <%= form.label :volume, "Volume" %><%= form.range_field :value, id: "volume", min: 0, max: 1, step: 0.01, value: state.volume.clamp(0, 1), disabled: !permitted_control?(state, "Volume"), data: { action: "change->playback#commit" } %>
+    <% end %>
+  </div>
+  <%= form_with url: commands_path, class: "progress-control", data: { action: "submit->playback#command" } do |form| %>
+    <%= form.hidden_field :command, value: "SetPosition" %><%= form.hidden_field :bus_name, value: state.bus_name %><%= form.hidden_field :track_id, value: state.track_id %>
+    <%= form.label :seek, "Playback position", class: "sr-only" %>
+    <span data-playback-target="elapsed"><%= timecode(state.position) %></span>
+    <%= form.range_field :value, id: "seek", min: 0, max: state.duration, step: 1, value: state.position, disabled: !permitted_control?(state, "SetPosition"), data: { playback_target: "seek", action: "input->playback#scrub change->playback#commit" } %>
+    <span><%= timecode(state.duration) %></span>
+  <% end %>
+</header>

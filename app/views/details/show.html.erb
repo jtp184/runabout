@@ -1,0 +1,15 @@
+<%= turbo_frame_tag "detail" do %>
+  <article class="detail-content">
+    <%= link_to "← Back to dashboard", close_detail_path, class: "lcars-button back-control", data: { turbo_frame: "detail" } %>
+    <p class="eyebrow">Library record</p><h2><%= @subject.try(:name) || @subject.try(:title) || @page || "Record unavailable" %></h2>
+    <% if @subject.is_a?(Person) %>
+      <% if photo_for(@subject) %><%= image_tag photo_for(@subject), alt: @subject.name, class: "headshot" %><% end %>
+      <p><%= @subject.biography %></p>
+      <h3>Star Trek roles</h3><ul><% @subject.credits.includes(episode: :series).each do |credit| %><li><%= credit.character %> · <%= credit.episode.label %></li><% end %></ul>
+    <% else %><p><%= @subject.try(:gloss) || @subject.try(:blurb) %></p><% end %>
+    <% if @article&.fetched_at %>
+      <details><summary>Reveal full article · May contain spoilers</summary><div class="wiki-article"><%= sanitize(@article.html, tags: MemoryAlpha::ArticleCache::TAGS, attributes: %w[href title rel target data-turbo-frame]) %></div></details>
+    <% else %><p class="diagnostic">Article unavailable offline. The local extract remains available.</p><% end %>
+    <% if @page.present? %><p class="source">Source: <%= link_to "Memory Alpha — #{@page}", source_url(@page), target: "_blank", rel: "noopener" %> · CC BY-NC</p><%= link_to "Refresh record", article_path(page: @page), data: { turbo_frame: "detail" } %><% end %>
+  </article>
+<% end %>
