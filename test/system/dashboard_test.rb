@@ -9,7 +9,7 @@ class DashboardSystemTest < ApplicationSystemTestCase
     Article.create!(page: entity.page, html: "<p>A cached article.</p>", fetched_at: Time.current)
   end
 
-  test "desktop controls theme pin mobile tabs and detail back navigation" do
+  test "desktop controls theme pin mobile tabs and inline record previews" do
     visit root_path
     assert_text "The Inner Light"
     %w[cast refs quotes log].each { |panel| assert_selector "##{panel}" }
@@ -27,18 +27,20 @@ class DashboardSystemTest < ApplicationSystemTestCase
     click_link "04 · REFS"
     assert_selector "#refs"
     assert_no_selector "#log"
-    assert_no_link "Ressikan flute"
-    category = find("#refs details", text: "Ressikan flute", visible: :all)
-    category.find("summary").click
-    assert_link "Ressikan flute"
-    click_link "Ressikan flute"
-    assert_selector "#detail .detail-content"
-    assert_text "Reveal full article"
-    assert_no_text "A cached article."
+    category = find("#refs .reference-category", text: "Ressikan flute", visible: :all)
+    category.find(":scope > summary").click
+    find(".reference-record > summary", text: "Ressikan flute").click
+    assert_link "Open full entity ↗", href: entity_path(Entity.current.find_by(page: "Ressikan flute"))
     page.save_screenshot(Rails.root.join("tmp/runabout-mobile.png"))
-    click_link "← Back to dashboard"
-    assert_no_selector "#detail .detail-content"
-    assert_selector "#refs"
+    click_link "02 · CAST"
+    record = find(".cast-record", text: "Patrick Stewart")
+    record.find("summary").click
+    within(record) do
+      assert_selector ".cast-preview p"
+      assert_selector 'a[target="_blank"]', text: "Open full person record ↗"
+    end
+    record.find("summary").click
+    assert_no_selector ".cast-preview"
     assert page.evaluate_script("document.documentElement.scrollWidth <= window.innerWidth"), "Mobile dashboard must not overflow horizontally"
   end
 end
