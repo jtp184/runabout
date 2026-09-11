@@ -22,11 +22,15 @@ class DashboardSystemTest < ApplicationSystemTestCase
     assert_equal "Pause", PlayerCommand.last.action
     page.save_screenshot(Rails.root.join("tmp/runabout-desktop.png"))
     page.driver.browser.manage.window.resize_to(430, 932)
-    assert_selector "#cast"
+    assert_selector "#log"
     assert_no_selector "#refs"
-    click_link "02 · REFS"
+    click_link "04 · REFS"
     assert_selector "#refs"
-    assert_no_selector "#cast"
+    assert_no_selector "#log"
+    assert_no_link "Ressikan flute"
+    category = find("#refs details", text: "Ressikan flute", visible: :all)
+    category.find("summary").click
+    assert_link "Ressikan flute"
     click_link "Ressikan flute"
     assert_selector "#detail .detail-content"
     assert_text "Reveal full article"
