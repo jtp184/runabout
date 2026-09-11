@@ -2,6 +2,8 @@
 
 A local Star Trek second screen built with Rails, Hotwire, SQLite, and the LCARS-26 themes. It follows VLC, mpv, or another MPRIS player on the same Linux desktop and shows the episode's cast, references, quotes, and mission log.
 
+![Runabout dashboard example](example.png)
+
 ## Start
 
 Requires Ruby 4.0.1 (rbenv works), Bundler, a desktop D-Bus session, and `7z` for the Memory Alpha download. Chromium and chromedriver are needed only for browser tests.
@@ -62,7 +64,7 @@ Backfill caches rendered articles for the indexed episodes, their performers, an
 
 Selecting a performer or entity fetches its rendered Memory Alpha article once, sanitizes it, rewrites internal links to local detail routes, and caches it permanently. An unavailable article shows its local extract and a retry link. Full articles, episode summaries, and production notes require an explicit spoiler reveal.
 
-On narrow screens, CAST / REFS / QUOTES / LOG are native CSS `:target` tabs. The detail frame takes the full screen with a back control. On desktop, all panels and a detail column remain available. Playback position advances locally between watcher updates. Seek and volume changes commit on release; every command is queued with the selected player and track identity and revalidated by the watcher. Rejected or expired commands display a temporary notice.
+On narrow screens, LOG / CAST / QUOTES / REFS are native CSS `:target` tabs, starting on the mission log. The detail frame takes the full screen with a back control. On desktop, the panels form a 2×2 grid with a detail column alongside. Reference categories start collapsed and expand independently. Playback position advances locally between watcher updates. Seek and volume changes commit on release; every command is queued with the selected player and track identity and revalidated by the watcher. Rejected or expired commands display a temporary notice.
 
 Use **Correct episode match** in the mission log to select one or two episodes for an unmatched or incorrectly identified file. The correction is permanent for that exact path and wins over both the library index and filename parsing. **Pin theme** freezes the current theme in browser storage until unpinned.
 
